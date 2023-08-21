@@ -13,7 +13,7 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="4dp"
         android:hint="@string/chamada"
-        android:inputType="NumeroConv"
+        android:inputType="NumberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,7 +41,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/calculate_button"
+        android:id="@+id/calcular_botao"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:text="@string/calc"
@@ -50,9 +50,13 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:layout_width=""
-        android:layout_height=""
+        android:id="@+id/resultado_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="4dp"
         android:text="@string/resultado"
-        app:layout_constraintStart_toEndOf="@id/calculate_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calcular_botao" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
