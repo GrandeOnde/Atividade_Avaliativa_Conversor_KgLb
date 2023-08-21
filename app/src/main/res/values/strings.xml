@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Atividade avaliativa</string>
+    <string name="chamada">Valor</string>
+    <string name="Lb_Kg">Libras para Kilogramas</string>
+    <string name="Kg_Lb">Kilogramas para Libras</string>
+    <string name="calc">Calcular</string>
+    <string name="resultado">Valor Convertido</string>
+</resources>
