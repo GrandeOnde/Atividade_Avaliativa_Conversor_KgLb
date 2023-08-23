@@ -24,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/Quantia">
+        app:layout_constraintTop_toBottomOf="@id/Quantia"
+        android:checkedButton="@+id/option_lb_kb">
 
         <RadioButton
             android:id="@+id/option_lb_kg"
